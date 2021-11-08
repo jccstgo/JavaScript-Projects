@@ -8,7 +8,7 @@ var A = A.fontcolor("blue");
 document.write(A);
 
 
-var B="This is the Assignment Step 49 <br>";
+var B="This is the Assignment Step 49";
 var B = B.fontcolor("blue");
 window.alert(B);
 
@@ -30,5 +30,9 @@ document.write(b+"<br>");
 
 //This is an example about expresions
 document.write(2+3+"<br>");
+
+function displayDate(){
+    document.getElementById("demo").innerHTML = Date();
+}
 
 
