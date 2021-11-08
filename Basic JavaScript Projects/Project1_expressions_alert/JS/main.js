@@ -1,4 +1,4 @@
-//window.alert("Hello, World!");
+window.alert("Hello, World!");
 document.write("Hello World!");
 
 
@@ -7,11 +7,13 @@ var A = " This is a string";
 var A = A.fontcolor("blue");
 document.write(A);
 
-/*
-var B="This is the Assignment Step 49";
+
+var B="This is the Assignment Step 49 <br>";
 var B = B.fontcolor("blue");
 window.alert(B);
-*/
+
+document.write(A+B);
+
 
 //This is an example about concatenated
 document.write("\"<br> This an example of backslash\"  and\\or"+ " <br> \"Example don\'t\" <br>");
