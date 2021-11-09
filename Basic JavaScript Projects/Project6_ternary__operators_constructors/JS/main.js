@@ -37,7 +37,7 @@ function another_key(){
 }
 
 
-var reserved_word = true;
+
 
 //Constructor function for city objects
 function city(name,lacation,population){
@@ -46,7 +46,6 @@ function city(name,lacation,population){
     this.city_population = population;
 }
 
-
 //Create a city
 var city_A = new city("Ecuador","Centroamerica","100,000");
 
@@ -54,3 +53,6 @@ var city_A = new city("Ecuador","Centroamerica","100,000");
 function buton_city(){
     document.getElementById("city").innerHTML = "The name of the city is: "+ city_A.city_name;
 }
+
+var reserved_word = true;
+document.write(reserved_word);
