@@ -56,3 +56,18 @@ function buton_city(){
 
 var reserved_word = true;
 document.write(reserved_word);
+
+//Example nested functions
+function multiply(){
+    document.getElementById("multiply").innerHTML = count();
+
+    function count(){
+        var start = 3;
+        
+        function multiply_three(){
+            start *= 3;
+        }
+        multiply_three();
+        return start;
+    }
+}
