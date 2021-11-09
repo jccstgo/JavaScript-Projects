@@ -16,6 +16,7 @@ function countdown(){
     tick();
 }
 
+var slideIndex=1;
 
 // Next/previous controls
 function plusSlides(n) {
