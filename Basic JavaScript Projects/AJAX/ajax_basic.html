@@ -25,6 +25,8 @@
                     document.getElementById("content").innerHTML = ajax.responseText;
                 }
             }*/
+            //Another use of ONREADYSTATECHANGE with status code ...
+            
             ajax.onreadystatechange = function (){
                 if(this.status == 200){
                     document.getElementById("content").innerHTML = ajax.responseText;
