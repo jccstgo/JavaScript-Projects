@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Call the jQuery library-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js""></script>
+    </head>
+    <script>
+        //When the document is ready execute the function
+        $(document).ready(function(){
+            //Added the next html code to this html
+            $("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+            //This functions are examples about use of click event 
+            //When the paragrap with the id=1 is clicked change de color and hide the second paragraph
+            $("#1").click(function(){
+                $("#1").css({"color":"blue"});
+                $("#2").hide();
+            });
+            $("#2").css({"color":"red"});
+            //When the paragrap 3 is clicked hide the h1 element in the page
+            $("#3").click(function(){
+                $('h1').hide();
+            });
+        });
+    </script>    
+</html>
