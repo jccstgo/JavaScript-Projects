@@ -9,4 +9,6 @@ function validate() {
       alert("Last Name must be filled out");
       return false;
     }
+
+   
   }
